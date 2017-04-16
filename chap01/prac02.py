@@ -1,5 +1,8 @@
 # coding: utf-8
 
+# 三値の最小値を求める関数min3を作成せよ。
+# int min3(int a, int b, int c);
+
 def min3(a, b, c):
     minnum = a
 

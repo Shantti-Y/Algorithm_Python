@@ -1,5 +1,10 @@
-#coding: utf-8
+# coding: utf-8
 
+# 二つの変数a, bに整数値を読み込んでb - aの値を表示するプログラムを作成せよ。
+# なお、変数bに読み込んだ値がa以下であれば、変数bの値を再入力させること。
+
+
+# Main function
 print("Calculate the diff of numbers in variables a and b")
 
 i = 0

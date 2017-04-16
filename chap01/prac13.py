@@ -1,5 +1,10 @@
-#coding: utf-8
+# coding: utf-8
 
+# 九九の掛け算ではなく足し算を行う表を表示するプログラムを作成せよ。
+# 前問と同様に、表の上と左に足す数を表示すること。
+
+
+# Main function
 head = []
 for i in range(1, 10):
 

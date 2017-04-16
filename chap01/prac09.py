@@ -1,5 +1,12 @@
 #coding: utf-8
 
+# 整数a, bを含め、その間の全整数の和を求めて返す以下の関数を作成せよ。
+# int sumof(int a, int b);
+# aとbの大小関係に関係なく和を求めること。たとえばaが3でbが5であれば12を、
+# aが6でbが4であれば15を求めること。
+
+
+# Main function
 def sumof(a, b):
     sum = 0
     if(a > b):

@@ -1,5 +1,8 @@
 # coding: utf-8
 
+# 四値の最小値を求める関数min4を作成せよ。
+# int min4(int a, int b, int c, int d);
+
 def min4(a, b, c, d):
     minnum = a
 

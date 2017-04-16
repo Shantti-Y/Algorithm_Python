@@ -1,5 +1,10 @@
 # coding: utf-8
 
+# 四値の最大値を求める関数max4を作成せよ。
+# int max4(int a, int b, int c, int d);
+# 作成した関数をテストするためのmain関数などを含んだプログラムを作成する事。以降の問題でも
+# 同様である。
+
 def max4(a, b, c, d):
     maxnum = a
 
@@ -11,8 +16,6 @@ def max4(a, b, c, d):
         maxnum = d
 
     return maxnum
-
-
 
 
 # Main function

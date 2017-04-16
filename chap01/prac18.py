@@ -1,4 +1,9 @@
-#coding: utf-8
+# coding: utf-8
+
+# 下を向いたn段の数字ピラミッドを表示する関数を作成せよ。
+# void nrpira(int n);
+# 第i行目に表示する数字は、i % 10によって求めること
+
 
 #Isosceles triangle shaped with right angle at the left bottom
 def spira(n):
@@ -14,6 +19,7 @@ def spira(n):
         print(a)
         i -= 1
 
+# Main Function
 print("Display the isosceles triangle which side length depends on you input")
 print("Length :")
 n = int(input())
