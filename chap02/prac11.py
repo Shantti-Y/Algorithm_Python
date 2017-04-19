@@ -1,5 +1,7 @@
 #coding: utf-8
 
+# 関数dayofyearを、変数iとdaysを使わずに実現するように書き換えよ。while文を使うこと。
+
 mdays = [
     [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
     [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
@@ -20,7 +22,8 @@ def dayofyear(y, m, d):
 
     return d
 
-#Main Function(void)
+
+#Main Function
 retry = 1
 
 while(retry == 1):

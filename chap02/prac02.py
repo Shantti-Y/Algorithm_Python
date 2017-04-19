@@ -1,11 +1,16 @@
 #coding: utf-8
 
+# 前問を書き換えて、身長の合計値を求めるプログラムを作成せよ。合計値を求める手続きは、
+# 以下の形式の関数として実現する事。
+# int sumof(const int a[], int n);
+
 def sumof(a, n):
     sum = 0
 
     for i in range(n):
         sum += a[i]
     return sum
+
 
 #Main function
 print("Compare student's height among the specified number of students")

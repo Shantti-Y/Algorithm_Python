@@ -1,6 +1,22 @@
+# coding: utf-8
+
+# 日付を表す構造体が次のように与えられているとする。
+#
+# typedef struct {
+#       int y;
+#       int m;
+#       int d;
+# } Date;
+#
+# 以下に示す関数を作成せよ。
+# ・y年m月d日を表す構造体を返却する関数DateOf
+#   Date DateOf(int, y, int m, int d);
+# ・日付xのn日後の日付を返す関数After
+#   Date After(Date x, int n);
+# ・日付xのn日前の日付を返す関数Before
+#   Date Before(Date x, int n);
+
 # Date Structure
-
-
 class Date(object):
 
     def __init__(self, y, m, d):
@@ -49,6 +65,7 @@ def Before(date, n):
         y -= 1
         m += 12
     return (DateOf(y, m, d))
+
 
 # Main function
 dates = [

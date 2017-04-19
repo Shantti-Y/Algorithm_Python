@@ -1,5 +1,9 @@
 #coding: utf-8
 
+# List2-5(参考書参照)は、身長の最大値を求めるプログラムであった。最小値を求めるように
+# 書き換えたプログラムを作成せよ。最小値を求める手続きは、以下の形式の関数として実現する事
+# int minof(const int a[], int n);
+
 def minof(a, n):
     lowest = a[0]
 
@@ -7,6 +11,7 @@ def minof(a, n):
         if(lowest > a[i + 1]):
             lowest = a[i + 1]
     return lowest
+    
 
 #Main function
 print("Compare student's height among the specified number of students")

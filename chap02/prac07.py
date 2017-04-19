@@ -1,5 +1,8 @@
 #coding: utf-8
 
+# 前問のプログラムをもとにして、基数変換の過程を詳細に表示するプログラムを作成せよ。
+# 剰余は、割られる数の右側に表示するものとする。
+
 def card_convr(x, n, d):
     dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -13,6 +16,7 @@ def card_convr(x, n, d):
             d.insert(0, dchar[x % n])
             x = int(x / n)
         print("     |\t0")
+
 
 #Main function
 print("Convert Decimal num in redix convertive method")

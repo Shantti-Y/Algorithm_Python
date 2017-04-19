@@ -1,5 +1,8 @@
 #coding: utf-8
 
+# 配列要素の並びの反転の経過を逐一表示するようにList2-7(参考書参照)を書き換えたプログラムを
+# 作成せよ。(関数ary_reverseに手を加えること)。
+
 def ary_reverse(a, n):
     for i in range(int(n / 2)):
         temp = a[i]
@@ -7,6 +10,7 @@ def ary_reverse(a, n):
         a[n - i - 1] = temp
         print("{0}".format(a))
         print("a[{0}]とa[{1}]を交換します。".format(i, (n - i - 1)))
+        
 
 #Main function
 print("Compare student's height among the specified number of students")

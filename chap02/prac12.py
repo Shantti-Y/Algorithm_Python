@@ -1,3 +1,8 @@
+# coding: utf-8
+
+# List2-13(参考書参照)のプログラムの視力の分布の表示を、グラフのような形で出力するように
+# 書き換えたプログラムを作成せよ。記号文字'*'を人数分だけ繰り返し表示する事。
+
 # The array about a structure of physical examination datas
 VMAX = 21
 
@@ -30,6 +35,7 @@ def dist_vision(dat, dist):
     for elem in dat:
         if elem.vision >= 0.0 and elem.vision <= (VMAX / 10.0):
             dist[int(elem.vision * 10)] += 1
+
 
 # Main function
 x = [

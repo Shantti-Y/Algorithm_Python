@@ -2,10 +2,13 @@ import random as rand
 
 #coding: utf-8
 
+# 配列aの全要素の並びをシャッフルする(無作為な順に並べる)関数を作成せよ(nは要素数である)。
+# void shuffle(int a[], int n);
+
 def shuffle(a, n):
     # 2 ways to shuffle elements in one array
     b = []
-    
+
     while(len(b) < len(a)):
         bool = 0
         r = rand.randint(0, n - 1)
@@ -17,7 +20,8 @@ def shuffle(a, n):
         if(bool == 0):
             b.append(a[r])
 
-#Main Function(void, in C_lang)
+
+#Main Function
 
 print("Copy all elements in one array to the other.")
 print("Input the number of elements that the array will have.")
