@@ -4,9 +4,7 @@
 # void nrpira(int n);
 # 第i行目に表示する数字は、i % 10によって求めること
 
-
-#Isosceles triangle shaped with right angle at the left bottom
-def spira(n):
+def nrpira(n):
     i = n
     while(i > 0):
         l = (i - 1) * 2 + 1
@@ -24,5 +22,5 @@ print("Display the isosceles triangle which side length depends on you input")
 print("Length :")
 n = int(input())
 
-print("Triangle at the left bottom")
-spira(n)
+print("Triangle")
+nrpira(n)
